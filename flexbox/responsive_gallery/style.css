@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 1;
+}
+
+
+:root {
+    font-size: 10px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+    margin-left: 1rem;
+    column-gap: .5rem;
+    row-gap: .5rem;
+    /*gap: first value=row-gap and second value=column-gap*/
+}

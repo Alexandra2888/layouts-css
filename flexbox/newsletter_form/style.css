@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+
+form {
+    margin-top: 30vh;
+    margin-left: 3rem;
+    width: 50%;
+    display: flex;
+    border: 3px solid coral;
+}
+
+input {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 1rem 2rem;
+}
+
+input[type="email"] {
+    border: 1px solid greenyellow;
+    font-size: 2rem;
+    /* flex-grow depends on flex-direction*/
+    flex-grow: 1;
+}
+
+input[type="email"]::placeholder {
+color: coral;
+}
+
+input[type="submit"]::placeholder {
+    color: coral;
+}
+
+
+input[type="submit"] {
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
